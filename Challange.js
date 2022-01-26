@@ -38,13 +38,13 @@ let dataRio = {
     },
     sekolah : "IDN Boarding School",
     nilai : {
-        diniyyah : "8",
+        diniyyah : "B+",
         IT : "A",
         Inggris : "B"
     }
 }
 
-console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \n Kelas: ${dataRio.kelas} \n kompetensi keahlian ${dataRio.jurunsa} \nAsal Kota ${dataRio.alamat.kabupaten} \n Nilai Diniyyah ${dataRio.nilai.diniyyah} IT(${dataRio.nilai.IT}, Bahasa Inggris(${dataRio.nilai.Inggris})`)
+console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \n Kelas: ${dataRio.kelas} \n kompetensi keahlian ${dataRio.jurunsa} \nAsal Kota ${dataRio.alamat.kabupaten} \n Nilai Diniyyah (${dataRio.nilai.diniyyah}), IT(${dataRio.nilai.IT}), Bahasa Inggris(${dataRio.nilai.Inggris})`)
  console.log("=========")
 let nama = "John"
 let kelas = 10
