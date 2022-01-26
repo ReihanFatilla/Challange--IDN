@@ -66,7 +66,7 @@ let salam = ["Hello", "Assalamualaikum", "Selamat Datang", "Semangat!!"]
 
 for (i = 0; i < salam.length; i++){
     console.log(salam[i])
-    console.log("Jumlah Character" + salam[i].length)
+    console.log("Jumlah Character " + salam[i].length)
 }
 
 console.log("==============")
