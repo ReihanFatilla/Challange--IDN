@@ -52,15 +52,8 @@
 
 let aku = "saya"
 let bool = true
-let ud = undefined
-let bioData = {
-    name : "Reihan",
-    age : "16",
-    birth: {
-        date: "16 Desember 2005",
-        city: "Palu",
-    }
-}
+let ud
+let bioData = null
 
 console.log("Ini Tipe Data " + typeof aku)
 console.log("Ini Tipe Data " + typeof bool)
@@ -73,7 +66,7 @@ let salam = ["Hello", "Assalamualaikum", "Selamat Datang", "Semangat!!"]
 
 for (i = 0; i < salam.length; i++){
     console.log(salam[i])
-    console.log(salam[i].length)
+    console.log("Jumlah Character" + salam[i].length)
 }
 
 console.log("==============")
@@ -96,7 +89,7 @@ let dataRio = {
     }
 }
 
-console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \n Kelas: ${dataRio.kelas} \n kompetensi keahlian ${dataRio.jurunsa} \nAsal Kota ${dataRio.alamat.kabupaten} \n Nilai Diniyyah (${dataRio.nilai.diniyyah}), IT(${dataRio.nilai.IT}), Bahasa Inggris(${dataRio.nilai.Inggris})`)
+console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \nKelas: ${dataRio.kelas} \nkompetensi keahlian ${dataRio.jurunsa} \nAsal Kota ${dataRio.alamat.kabupaten} \nNilai Diniyyah (${dataRio.nilai.diniyyah}), IT(${dataRio.nilai.IT}),Bahasa Inggris(${dataRio.nilai.Inggris})`)
  console.log("=========")
 let nama = "John"
 let kelas = 10
