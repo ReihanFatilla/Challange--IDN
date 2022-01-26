@@ -43,7 +43,7 @@
  * 
  * let nama = john kelas = 10 jurusan = RPL 
  * buatlah output menggunakan template literal
- * hallo nama saya john, saya berasal dari kelas 10 jurusan RPL.
+ * hallo nama saya john, saya berasal dari kelas 10 jurusan RPL,
  * 
  * 
  * =============================================================================================================
@@ -73,13 +73,13 @@ console.log("==============")
 
 let dataRio = {
     nama : "Almerio",
-    namaAKhir : "Seiawan",
+    namaAKhir : "Setiawan",
     kelas : "10",
     jurunsa: "Rekayasa Perangkat Lunak",
     alamat: {
         jalan : "jalan raya dayeuh",
         kecamatan : "jonggol",
-        kabupaten : "bogor"
+        kabupaten : "Bogor"
     },
     sekolah : "IDN Boarding School",
     nilai : {
@@ -89,7 +89,7 @@ let dataRio = {
     }
 }
 
-console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \nKelas: ${dataRio.kelas} \nkompetensi keahlian ${dataRio.jurunsa} \nAsal Kota ${dataRio.alamat.kabupaten} \nNilai Diniyyah (${dataRio.nilai.diniyyah}), IT(${dataRio.nilai.IT}),Bahasa Inggris(${dataRio.nilai.Inggris})`)
+console.log(`Nama Lengkap: ${dataRio.nama} ${dataRio.namaAKhir} \nKelas: ${dataRio.kelas} \nkompetensi keahlian: ${dataRio.jurunsa} \nAsal Kota: ${dataRio.alamat.kabupaten} \nNilai: Diniyyah (${dataRio.nilai.diniyyah}), IT(${dataRio.nilai.IT}), Bahasa Inggris(${dataRio.nilai.Inggris})`)
  console.log("=========")
 let nama = "John"
 let kelas = 10
