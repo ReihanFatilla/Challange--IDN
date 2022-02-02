@@ -1,0 +1,23 @@
+/**
+ * High Order Function
+ * Function yang menerima argumen berupa function lain
+ * 
+ * Call Back
+ * function yang akan menjadi argumen dalam pemanggilan High Order Function
+ */
+
+ function Filter(word) {
+    return word == 'noob'
+}
+
+function filterWord(word) {
+    let filter = Filter(word)
+    if(filter){
+        word = "****"
+        console.log(word)
+    }else{
+        console.log(word)
+    }
+}
+filterWord("good game")
+filterWord("noob")
